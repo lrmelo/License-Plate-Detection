@@ -86,10 +86,6 @@ debug.log
 # Arquivos do modelo treinado
 modelo_placas.pth
 
-# Dados do dataset (se não quiser incluí-los no controle de versão)
-dataset/images/
-dataset/annotations/
-
 # Arquivos do Matplotlib
 figure*.png
 
