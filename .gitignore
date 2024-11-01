@@ -1,0 +1,107 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Arquivos Cython compilados
+*.so
+
+# Diretórios de build
+build/
+dist/
+wheelhouse/
+*.egg-info/
+*.egg
+
+# Arquivos do instalador
+*.manifest
+*.spec
+
+# Ambiente virtual
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.venv
+
+# Arquivos de pacotes
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Arquivos do PyInstaller
+*.log
+
+# Arquivos de IDEs
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos temporários
+*.swp
+.sass-cache/
+*.tmp
+*.temp
+
+# Arquivos de cache
+.cache/
+*.cache
+
+# Logs e relatórios
+*.log
+*.pot
+*.pid
+*.seed
+*.stamp
+
+# Arquivos do Jupyter Notebook
+.ipynb_checkpoints/
+
+# Arquivos de teste e cobertura
+.tox/
+.nox/
+.coverage
+coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+
+# Arquivos do mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Arquivos de depuração
+debug.log
+
+# Arquivos de perfil
+.prof
+
+# Arquivos do modelo treinado
+modelo_placas.pth
+
+# Dados do dataset (se não quiser incluí-los no controle de versão)
+dataset/images/
+dataset/annotations/
+
+# Arquivos do Matplotlib
+figure*.png
+
+# Arquivos gerados automaticamente
+*.html
+
+# Arquivos de configuração pessoal
+*.ini
+*.cfg
+*.conf
+
+# Outros arquivos específicos do projeto
+__pycache__/
+*.pyc
+*.pyo
